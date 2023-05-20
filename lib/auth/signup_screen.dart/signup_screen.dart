@@ -25,19 +25,16 @@ class SignUpScreen extends StatelessWidget {
         body: SingleChildScrollView(
           child: Stack(children: [
             // Background image
-            Image.asset(
-              'assets/images/bg.jpg', // replace with your own image
+            Image.network(
+              "https://images.pexels.com/photos/1839904/pexels-photo-1839904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
               fit: BoxFit.cover,
-
               width: double.infinity,
               height: MediaQuery.of(context).size.height,
             ),
-            Positioned.fill(
-              child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
-                child: Container(
-                  color: Colors.white.withOpacity(0),
-                ),
+            BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
+              child: Container(
+                color: Colors.white.withOpacity(0),
               ),
             ),
             Positioned(
