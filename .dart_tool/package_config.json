@@ -1,0 +1,290 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "animated_splash_screen",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/animated_splash_screen-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "async",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "bloc",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/bloc-8.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "carousel_slider",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/carousel_slider-4.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cupertino_icons",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dart2_constant",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/dart2_constant-1.0.2+dart2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///C:/Users/acer/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_bloc",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_bloc-8.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_lints",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_screenutil-5.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_svg",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///C:/Users/acer/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///C:/Users/acer/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "lints",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "material_color_utilities",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.13"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "nested",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "page_transition",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/page_transition-2.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_parsing",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-5.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "pinput",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/pinput-2.2.31",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///C:/Users/acer/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "smart_auth",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/smart_auth-1.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "svgpath",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/svgpath-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.4.16",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "universal_platform",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/universal_platform-1.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "vector_graphics",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_codec",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_codec-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_compiler",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "xml",
+      "rootUri": "file:///C:/Users/acer/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "e_commerce_app",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    }
+  ],
+  "generated": "2023-05-20T14:46:57.632168Z",
+  "generator": "pub",
+  "generatorVersion": "2.19.3"
+}
