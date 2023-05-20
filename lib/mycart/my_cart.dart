@@ -130,7 +130,7 @@ class MyCart extends StatelessWidget {
                     onDismissed: (direction) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                            backgroundColor: Colors.black,
+                            backgroundColor: Colors.redAccent,
                             content: Text('$items is removed from the cart')),
                       );
                     },

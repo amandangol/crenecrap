@@ -50,8 +50,8 @@ class ProductDetails extends StatelessWidget {
                       left: 20,
                       top: 20,
                       child: Container(
-                          height: 40,
-                          width: 40,
+                          height: 35,
+                          width: 35,
                           decoration: const BoxDecoration(
                               color: Colors.black, shape: BoxShape.circle),
                           child: IconButton(
@@ -59,7 +59,8 @@ class ProductDetails extends StatelessWidget {
                               Navigator.pop(context);
                             },
                             icon: const Icon(
-                              Icons.arrow_back_rounded,
+                              Icons.arrow_back_ios,
+                              size: 20,
                               color: Colors.white,
                             ),
                           ))),

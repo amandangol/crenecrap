@@ -11,4 +11,5 @@ class RouteConstants {
   static const String routeCategoryDetail = "/categorydetail";
   static const String routeProductDetail = "/productdetail";
   static const String routeMyCart = "/mycart";
+  static const String routeWishlist = "/wishlist";
 }

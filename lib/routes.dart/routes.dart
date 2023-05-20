@@ -8,6 +8,7 @@ import 'package:e_commerce_app/categories_section/category_page.dart';
 import 'package:e_commerce_app/mycart/my_cart.dart';
 import 'package:e_commerce_app/product_details/product_detail.dart';
 import 'package:e_commerce_app/splash_screen.dart';
+import 'package:e_commerce_app/wishlist/wishlist.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_route.dart';
@@ -34,6 +35,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     return CustomPageRouteBuilder(widget: ProductDetails());
   } else if (settings.name == RouteConstants.routeProductDetail) {
     return CustomPageRouteBuilder(widget: ProductDetails());
+  } else if (settings.name == RouteConstants.routeWishlist) {
+    return CustomPageRouteBuilder(widget: WishlistScreen());
   } else if (settings.name == RouteConstants.routeMyCart) {
     return CustomPageRouteBuilder(widget: MyCart());
   }

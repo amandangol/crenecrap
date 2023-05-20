@@ -1,5 +1,7 @@
 import 'package:e_commerce_app/commonwidgets/custom_sizedbox.dart';
+import 'package:e_commerce_app/cubit/order_add_remove_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MyCartItem extends StatelessWidget {
@@ -72,7 +74,7 @@ class MyCartItem extends StatelessWidget {
                             color: Colors.black,
                             fontFamily: "Poppins",
                             fontWeight: FontWeight.bold,
-                            fontSize: 15.sp),
+                            fontSize: 14.sp),
                       ),
                       Text(
                         overflow: TextOverflow.ellipsis,
@@ -82,7 +84,7 @@ class MyCartItem extends StatelessWidget {
                             color: Colors.grey,
                             fontFamily: "Poppins",
                             fontWeight: FontWeight.normal,
-                            fontSize: 13.sp),
+                            fontSize: 12.sp),
                       ),
                       Text(
                         "Quantity: $quantity",
@@ -98,7 +100,7 @@ class MyCartItem extends StatelessWidget {
                             color: Colors.grey,
                             fontFamily: "Poppins",
                             fontWeight: FontWeight.normal,
-                            fontSize: 13.sp),
+                            fontSize: 12.sp),
                       ),
                       Row(
                         children: [
@@ -108,7 +110,7 @@ class MyCartItem extends StatelessWidget {
                                 color: Colors.grey,
                                 fontFamily: "Poppins",
                                 fontWeight: FontWeight.normal,
-                                fontSize: 13.sp),
+                                fontSize: 12.sp),
                           ),
                           Container(
                             width: 12,
@@ -126,12 +128,56 @@ class MyCartItem extends StatelessWidget {
                             color: Colors.black,
                             fontFamily: "Poppins",
                             fontWeight: FontWeight.bold,
-                            fontSize: 13.sp),
+                            fontSize: 12.sp),
                       ),
                     ],
                   ),
                 ),
               ),
+              BlocBuilder<OrderAddRemoveCubit, int>(
+                  builder: (context, quantity) {
+                final shoppingCartBloc = context.read<OrderAddRemoveCubit>();
+                return Container(
+                  margin: const EdgeInsets.all(5),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  height: 30,
+                  decoration: BoxDecoration(
+                      color: Colors.grey.withOpacity(0.4),
+                      borderRadius: BorderRadius.circular(24)),
+                  child: Row(
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          shoppingCartBloc.decrementQuantity();
+                        },
+                        child: const Icon(
+                          Icons.remove,
+                          size: 20,
+                        ),
+                      ),
+                      sboxW6,
+                      Text(
+                        quantity.toString(),
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 13.sp,
+                            fontFamily: "Poppins",
+                            fontWeight: FontWeight.bold),
+                      ),
+                      sboxW6,
+                      GestureDetector(
+                        onTap: () {
+                          shoppingCartBloc.incrementQuantity();
+                        },
+                        child: const Icon(
+                          Icons.add,
+                          size: 20,
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              })
             ],
           ),
         ),
