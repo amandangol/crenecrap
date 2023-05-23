@@ -125,57 +125,23 @@ class HomeScreen extends StatelessWidget {
           ),
           sboxH10,
           SizedBox(
-            height: 170.h,
-            child: ListView(
+            height: 200,
+            child: ListView.builder(
+              itemCount: 5,
               shrinkWrap: true,
               scrollDirection: Axis.horizontal,
               physics: const AlwaysScrollableScrollPhysics(),
-              children: [
-                NewArrivals(
-                  image:
-                      "https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                  title: "The Marc Jacobs",
-                  subtitle: "Traveler Tote",
-                  price: "Rs. 2999",
-                  onTap: () {
-                    Navigator.pushNamed(
-                        context, RouteConstants.routeProductDetail);
-                  },
-                ),
-                NewArrivals(
-                  image:
-                      "https://images.pexels.com/photos/3661622/pexels-photo-3661622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                  title: "Gucci Gucci",
-                  subtitle: "One and only",
-                  price: "Rs. 3999",
-                  onTap: () {
-                    Navigator.pushNamed(
-                        context, RouteConstants.routeProductDetail);
-                  },
-                ),
-                NewArrivals(
-                  image:
-                      "https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                  title: "Brocade",
-                  subtitle: "Traveler Tote",
-                  price: "Rs.5999",
-                  onTap: () {
-                    Navigator.pushNamed(
-                        context, RouteConstants.routeProductDetail);
-                  },
-                ),
-                NewArrivals(
-                  image:
-                      "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                  title: "The Marc Jacobs",
-                  subtitle: "Traveler Tote",
-                  price: "Rs.4099",
-                  onTap: () {
-                    Navigator.pushNamed(
-                        context, RouteConstants.routeProductDetail);
-                  },
-                ),
-              ],
+              itemBuilder: (context, index) => NewArrivals(
+                image:
+                    "https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                title: "The Marc Jacobs",
+                subtitle: "Traveler Tote",
+                price: "Rs. 2999",
+                onTap: () {
+                  Navigator.pushNamed(
+                      context, RouteConstants.routeProductDetail);
+                },
+              ),
             ),
           ),
           Padding(
