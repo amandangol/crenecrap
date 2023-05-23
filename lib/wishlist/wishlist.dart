@@ -54,7 +54,7 @@ class WishlistScreen extends StatelessWidget {
         child: Column(
           children: [
             ListView.builder(
-              itemCount: 8,
+              itemCount: 6,
               physics: const NeverScrollableScrollPhysics(),
               shrinkWrap: true,
               itemBuilder: (context, index) {
