@@ -1,4 +1,5 @@
 import 'package:e_commerce_app/cubit/bottom_navigation_cubit.dart';
+import 'package:e_commerce_app/cubit/color_selection_cubit.dart';
 import 'package:e_commerce_app/cubit/order_add_remove_cubit.dart';
 import 'package:e_commerce_app/cubit/remember_me_cubit.dart';
 import 'package:e_commerce_app/cubit/size_selection_cubit.dart';
@@ -32,6 +33,9 @@ class EcommerceMain extends StatelessWidget {
         ),
         BlocProvider(
           create: (ctx) => SizeSelectionCubit(),
+        ),
+        BlocProvider(
+          create: (ctx) => ColorSelectionCubit(),
         ),
       ],
       child: ScreenUtilInit(builder: (context, child) {

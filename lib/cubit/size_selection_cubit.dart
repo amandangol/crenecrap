@@ -1,14 +1,19 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SizeSelectionCubit extends Cubit<SizeSelectionState> {
-  SizeSelectionCubit() : super(SizeSelectionState.initial);
+  SizeSelectionCubit() : super(SizeSelectionState(''));
 
-  void selectSize() => emit(SizeSelectionState.selected);
+  void selectSize(String size) {
+    emit(SizeSelectionState(size));
+  }
 
-  void resetSize() => emit(SizeSelectionState.initial);
+  void unselectSize() {
+    emit(SizeSelectionState(''));
+  }
 }
 
-enum SizeSelectionState {
-  initial,
-  selected,
+class SizeSelectionState {
+  final String selectedSize;
+
+  SizeSelectionState(this.selectedSize);
 }

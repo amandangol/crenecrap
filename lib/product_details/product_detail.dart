@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_commerce_app/commonwidgets/custom_sizedbox.dart';
+import 'package:e_commerce_app/cubit/color_selection_cubit.dart';
 import 'package:e_commerce_app/cubit/order_add_remove_cubit.dart';
 import 'package:e_commerce_app/cubit/size_selection_cubit.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +15,8 @@ class ProductDetails extends StatelessWidget {
     "https://images.pexels.com/photos/428311/pexels-photo-428311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "https://images.pexels.com/photos/1861907/pexels-photo-1861907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   ];
+  List<String>? itemsizes = ["S", 'M', 'L', 'XL'];
+  List<Color>? itemcolors = [Colors.red, Colors.blue, Colors.purple];
 
   @override
   Widget build(BuildContext context) {
@@ -172,6 +175,7 @@ class ProductDetails extends StatelessWidget {
                               fontWeight: FontWeight.normal,
                               fontFamily: "Poppins"),
                         ),
+                        sboxH10,
                         Row(
                           children: [
                             const Icon(
@@ -202,200 +206,164 @@ class ProductDetails extends StatelessWidget {
                             )
                           ],
                         ),
-                        sboxH10,
-                        Row(
+                        sboxH15,
+                        Column(
                           children: [
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
+                            Row(
                               children: [
                                 Text(
-                                  "Size",
+                                  "Sizes",
                                   style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 14.sp,
                                       fontWeight: FontWeight.bold,
                                       fontFamily: "Poppins"),
                                 ),
-                                sboxH15,
+                                sboxW10,
                                 BlocBuilder<SizeSelectionCubit,
                                         SizeSelectionState>(
                                     builder: (context, sizeState) {
                                   final sizeSelectionCubit =
                                       context.read<SizeSelectionCubit>();
-                                  return Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceEvenly,
-                                    children: [
-                                      GestureDetector(
-                                        onTap: () {
-                                          if (sizeState ==
-                                              SizeSelectionState.initial) {
-                                            sizeSelectionCubit.selectSize();
-                                          } else {
-                                            sizeSelectionCubit.resetSize();
-                                          }
-                                        },
-                                        child: Container(
-                                          decoration: BoxDecoration(
-                                              shape: BoxShape.circle,
-                                              color: sizeState ==
-                                                      SizeSelectionState
-                                                          .selected
-                                                  ? Colors.black
-                                                  : Colors.white,
-                                              border: Border.all(
-                                                  color: Colors.grey)),
-                                          child: Padding(
-                                            padding: const EdgeInsets.all(8.0),
-                                            child: Text(
-                                              "S",
-                                              style: TextStyle(
-                                                color: sizeState ==
-                                                        SizeSelectionState
-                                                            .selected
-                                                    ? Colors.white
-                                                    : Colors.black,
+                                  return SizedBox(
+                                    height: 30,
+                                    child: ListView.builder(
+                                      itemCount: itemsizes!.length,
+                                      shrinkWrap: true,
+                                      scrollDirection: Axis.horizontal,
+                                      itemBuilder: (context, index) {
+                                        final size = itemsizes![index];
+                                        final isSelectedSize =
+                                            size == sizeState.selectedSize;
+                                        return GestureDetector(
+                                          onTap: () {
+                                            if (isSelectedSize) {
+                                              context
+                                                  .read<SizeSelectionCubit>()
+                                                  .unselectSize();
+                                            } else {
+                                              context
+                                                  .read<SizeSelectionCubit>()
+                                                  .selectSize(size);
+                                            }
+                                          },
+                                          child: Container(
+                                            height: 35,
+                                            width: 35,
+                                            decoration: BoxDecoration(
+                                                shape: BoxShape.circle,
+                                                color: isSelectedSize
+                                                    ? Colors.black
+                                                    : Colors.white,
+                                                border: Border.all(
+                                                    color: Colors.grey)),
+                                            child: Padding(
+                                              padding:
+                                                  const EdgeInsets.all(8.0),
+                                              child: Center(
+                                                child: Text(
+                                                  itemsizes![index],
+                                                  style: TextStyle(
+                                                    color: isSelectedSize
+                                                        ? Colors.white
+                                                        : Colors.black,
+                                                  ),
+                                                ),
                                               ),
                                             ),
                                           ),
-                                        ),
-                                      ),
-                                      sboxW6,
-                                      Container(
-                                        decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border:
-                                                Border.all(color: Colors.grey)),
-                                        child: const Padding(
-                                          padding: EdgeInsets.all(8.0),
-                                          child: Text(
-                                            "M",
-                                            style:
-                                                TextStyle(color: Colors.grey),
-                                          ),
-                                        ),
-                                      ),
-                                      sboxW6,
-                                      Container(
-                                        decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border:
-                                                Border.all(color: Colors.grey)),
-                                        child: const Padding(
-                                          padding: EdgeInsets.all(8.0),
-                                          child: Text(
-                                            "L",
-                                            style:
-                                                TextStyle(color: Colors.grey),
-                                          ),
-                                        ),
-                                      ),
-                                      sboxW6,
-                                      Container(
-                                        decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border:
-                                                Border.all(color: Colors.grey)),
-                                        child: const Padding(
-                                          padding: EdgeInsets.all(8.0),
-                                          child: Text(
-                                            "XL",
-                                            style:
-                                                TextStyle(color: Colors.grey),
-                                          ),
-                                        ),
-                                      ),
-                                      sboxW6,
-                                      Container(
-                                        decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                            border:
-                                                Border.all(color: Colors.grey)),
-                                        child: const Padding(
-                                          padding: EdgeInsets.all(8.0),
-                                          child: Text(
-                                            "XXL",
-                                            style:
-                                                TextStyle(color: Colors.grey),
-                                          ),
-                                        ),
-                                      ),
-                                    ],
+                                        );
+                                      },
+                                    ),
                                   );
                                 }),
+                                const Spacer(),
+                                Text(
+                                  "Rs. 2999",
+                                  style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 16.sp,
+                                      fontWeight: FontWeight.bold,
+                                      fontFamily: "Poppins"),
+                                ),
                               ],
-                            ),
-                            const Spacer(),
-                            Container(
-                              padding: const EdgeInsets.all(8),
-                              decoration: BoxDecoration(
-                                borderRadius:
-                                    const BorderRadius.all(Radius.circular(24)),
-                                color: Colors.blue.withOpacity(0.1),
-                              ),
-                              child: Column(
-                                children: [
-                                  Container(
-                                    decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        color: Colors.white,
-                                        border: Border.all(
-                                            color:
-                                                Colors.grey.withOpacity(0.5))),
-                                    child: const Padding(
-                                      padding: EdgeInsets.all(5.0),
-                                      child: Icon(
-                                        Icons.check,
-                                        size: 15,
-                                      ),
-                                    ),
-                                  ),
-                                  sboxH5,
-                                  Container(
-                                    decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        color: Colors.black,
-                                        border: Border.all(
-                                            color:
-                                                Colors.grey.withOpacity(0.5))),
-                                    child: const Padding(
-                                      padding: EdgeInsets.all(5.0),
-                                      child: Icon(
-                                        Icons.check,
-                                        size: 15,
-                                      ),
-                                    ),
-                                  ),
-                                  sboxH5,
-                                  Container(
-                                    decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        color: Colors.red,
-                                        border: Border.all(
-                                            color:
-                                                Colors.grey.withOpacity(0.5))),
-                                    child: const Padding(
-                                      padding: EdgeInsets.all(5.0),
-                                      child: Icon(
-                                        Icons.check,
-                                        size: 15,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
                             ),
                           ],
                         ),
+                        sboxH15,
+                        BlocBuilder<ColorSelectionCubit, ColorSelectionState>(
+                            builder: (context, colorState) {
+                          return Row(
+                            children: [
+                              Text(
+                                "Colors",
+                                style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 14.sp,
+                                    fontWeight: FontWeight.bold,
+                                    fontFamily: "Poppins"),
+                              ),
+                              sboxW10,
+                              SizedBox(
+                                height: 30,
+                                child: ListView.builder(
+                                  itemCount: itemcolors!.length,
+                                  shrinkWrap: true,
+                                  scrollDirection: Axis.horizontal,
+                                  itemBuilder: (context, index) {
+                                    final color = itemcolors![index];
+                                    final isSelectedColor =
+                                        color == colorState.selectedColor;
+                                    return GestureDetector(
+                                      onTap: () {
+                                        if (isSelectedColor) {
+                                          context
+                                              .read<ColorSelectionCubit>()
+                                              .unselectColor();
+                                        } else {
+                                          context
+                                              .read<ColorSelectionCubit>()
+                                              .selectColor(color);
+                                        }
+                                      },
+                                      child: Container(
+                                        height: 35,
+                                        width: 35,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          color: itemcolors![index],
+                                          border: Border.all(
+                                              color:
+                                                  Colors.grey.withOpacity(0.5)),
+                                        ),
+                                        child: isSelectedColor
+                                            ? const Icon(
+                                                Icons.check,
+                                                size: 20,
+                                                color: Colors.white,
+                                              )
+                                            : const SizedBox(),
+                                      ),
+                                    );
+                                  },
+                                ),
+                              ),
+                            ],
+                          );
+                        }),
+                        Divider(
+                          color: Colors.grey,
+                          height: 30.h,
+                        ),
                         Text(
-                          "Description",
+                          "Product Overview",
                           style: TextStyle(
                               letterSpacing: 0.5,
                               fontWeight: FontWeight.bold,
                               fontFamily: "Poppins",
                               fontSize: 15.sp),
                         ),
-                        sboxH10,
+                        sboxH5,
                         Text(
                           "A type of garment typically made of soft and breathable fabric, such as cotton or polyester. It is a popular casual clothing item worn by people of all ages and genders. T-shirts are characterized by their short sleeves, crew neck or V-neck collar, and a loose-fitting style.",
                           style: TextStyle(
@@ -405,117 +373,66 @@ class ProductDetails extends StatelessWidget {
                               fontSize: 12.sp),
                         ),
                         sboxH10,
-                        Container(
-                            padding: const EdgeInsets.all(15),
-                            decoration: const BoxDecoration(
-                              color: Colors.black,
-                              borderRadius: BorderRadius.all(
-                                Radius.circular(14),
+                        const Divider(
+                          color: Colors.grey,
+                        ),
+                        sboxH10,
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2.5,
+                              padding: const EdgeInsets.symmetric(vertical: 10),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(),
+                                borderRadius:
+                                    const BorderRadius.all(Radius.circular(8)),
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  const Icon(Icons.shopping_bag_outlined,
+                                      color: Colors.black),
+                                  sboxW6,
+                                  Text(
+                                    "Add to cart",
+                                    style: TextStyle(
+                                        fontFamily: "Poppins",
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.sp),
+                                  )
+                                ],
                               ),
                             ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "Rs. 1199.00",
+                            Container(
+                              height: 45,
+                              width: 2,
+                              decoration:
+                                  const BoxDecoration(color: Colors.black),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width / 2.5,
+                              padding: const EdgeInsets.symmetric(vertical: 10),
+                              decoration: const BoxDecoration(
+                                color: Colors.black,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(8)),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  "Buy Now",
                                   style: TextStyle(
-                                      fontSize: 17.sp,
+                                      fontFamily: "Poppins",
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
-                                      fontFamily: "Poppins"),
+                                      fontSize: 16.sp),
                                 ),
-                                Column(
-                                  children: [
-                                    Container(
-                                      padding: const EdgeInsets.all(5),
-                                      decoration: const BoxDecoration(
-                                        color: Colors.white,
-                                        borderRadius: BorderRadius.all(
-                                            Radius.circular(12)),
-                                      ),
-                                      child: Row(
-                                        children: [
-                                          const Icon(
-                                              Icons.shopping_bag_outlined,
-                                              color: Colors.black),
-                                          sboxW6,
-                                          Text(
-                                            "Add to cart",
-                                            style: TextStyle(
-                                                fontFamily: "Poppins",
-                                                color: Colors.black,
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 16.sp),
-                                          )
-                                        ],
-                                      ),
-                                    ),
-                                    sboxH10,
-                                    Container(
-                                      padding: const EdgeInsets.all(5),
-                                      decoration: const BoxDecoration(
-                                        color: Colors.white,
-                                        borderRadius: BorderRadius.all(
-                                            Radius.circular(12)),
-                                      ),
-                                      child: Text(
-                                        "Buy Now",
-                                        style: TextStyle(
-                                            fontFamily: "Poppins",
-                                            color: Colors.black,
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 16.sp),
-                                      ),
-                                    )
-                                  ],
-                                )
-                              ],
-                            ))
-                        // Container(
-                        // decoration: const BoxDecoration(
-                        //   color: Colors.black,
-                        //   borderRadius: BorderRadius.all(Radius.circular(24)),
-                        // ),
-                        //   child: ListTile(
-                        //     title: Text(
-                        //       "Total Price",
-                        //       style: TextStyle(
-                        //           fontFamily: "Poppins", fontSize: 12.sp),
-                        //     ),
-                        // subtitle: Text(
-                        //   "Rs. 1199.00",
-                        //   style: TextStyle(
-                        //       fontSize: 17.sp,
-                        //       color: Colors.black,
-                        //       fontWeight: FontWeight.bold,
-                        //       fontFamily: "Poppins"),
-                        // ),
-                        //     trailing: Container(
-                        //       padding: const EdgeInsets.symmetric(
-                        //           horizontal: 15, vertical: 8),
-                        //       decoration: const BoxDecoration(
-                        //         color: Colors.black,
-                        //         borderRadius:
-                        //             BorderRadius.all(Radius.circular(24)),
-                        //       ),
-                        //       child: Row(
-                        //         children: [
-                        //           const Icon(Icons.shopping_bag_outlined,
-                        //               color: Colors.white),
-                        //           sboxW6,
-                        // Text(
-                        //   "Add to cart",
-                        //   style: TextStyle(
-                        //       fontFamily: "Poppins",
-                        //       color: Colors.white,
-                        //       fontWeight: FontWeight.bold,
-                        //       fontSize: 16.sp),
-                        // )
-                        //         ],
-                        //       ),
-                        //     ),
-                        //   ),
-                        // )
+                              ),
+                            )
+                          ],
+                        )
                       ],
                     ),
                   ),

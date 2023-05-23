@@ -2,6 +2,7 @@ import 'package:e_commerce_app/bottom_navigation/bottom_nav_appbar.dart';
 import 'package:e_commerce_app/cubit/bottom_navigation_cubit.dart';
 import 'package:e_commerce_app/home_screen.dart/home_screen.dart';
 import 'package:e_commerce_app/mycart/my_cart.dart';
+import 'package:e_commerce_app/profilescreen/profile_screen.dart';
 import 'package:e_commerce_app/wishlist/wishlist.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -27,7 +28,7 @@ class BottomNavHome extends StatelessWidget {
           } else if (navMenuIndex == 2) {
             return WishlistScreen();
           } else if (navMenuIndex == 3) {
-            return Container();
+            return ProfileScreen();
           } else {
             return Container();
           }
