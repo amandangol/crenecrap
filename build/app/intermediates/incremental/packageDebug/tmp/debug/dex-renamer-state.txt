@@ -1,4 +1,4 @@
-#Sun May 21 09:37:43 NPT 2023
+#Tue May 23 21:15:41 NPT 2023
 base.0=C\:\\Users\\acer\\Desktop\\crene_crap_ecommerce\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
