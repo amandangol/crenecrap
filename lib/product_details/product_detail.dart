@@ -41,11 +41,16 @@ class ProductDetails extends StatelessWidget {
                     ),
                     items: imgList!
                         .map((item) => Center(
-                                child: Image.network(
-                              item,
-                              fit: BoxFit.cover,
-                              height: height / 2,
-                              width: double.infinity,
+                                child: ClipRRect(
+                              borderRadius: const BorderRadius.only(
+                                  bottomLeft: Radius.circular(20),
+                                  bottomRight: Radius.circular(20)),
+                              child: Image.network(
+                                item,
+                                fit: BoxFit.cover,
+                                height: height / 2,
+                                width: double.infinity,
+                              ),
                             )))
                         .toList(),
                   ),

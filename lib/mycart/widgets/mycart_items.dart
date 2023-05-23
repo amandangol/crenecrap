@@ -122,6 +122,7 @@ class MyCartItem extends StatelessWidget {
                           ),
                         ],
                       ),
+                      sboxH5,
                       Text(
                         "Rs. $price",
                         style: TextStyle(
