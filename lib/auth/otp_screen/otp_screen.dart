@@ -3,7 +3,6 @@ import 'package:e_commerce_app/commonwidgets/custom_sizedbox.dart';
 import 'package:e_commerce_app/routes.dart/route_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:pinput/pinput.dart';
 
 class OTPScreen extends StatelessWidget {
   OTPScreen({super.key});
@@ -61,17 +60,17 @@ class OTPScreen extends StatelessWidget {
                       fit: BoxFit.fitHeight,
                     ),
                   ),
-                  Pinput(
-                    controller: pinController,
-                    // androidSmsAutofillMethod:
-                    //     AndroidSmsAutofillMethod.smsRetrieverApi,
-                    autofocus: false,
-                    keyboardType: TextInputType.number,
-                    length: 5,
-                    closeKeyboardWhenCompleted: true,
-                    pinAnimationType: PinAnimationType.rotation,
-                    onCompleted: (val) {},
-                  ),
+                  // Pinput(
+                  //   controller: pinController,
+                  //   // androidSmsAutofillMethod:
+                  //   //     AndroidSmsAutofillMethod.smsRetrieverApi,
+                  //   autofocus: false,
+                  //   keyboardType: TextInputType.number,
+                  //   length: 5,
+                  //   closeKeyboardWhenCompleted: true,
+                  //   pinAnimationType: PinAnimationType.rotation,
+                  //   onCompleted: (val) {},
+                  // ),
                   sboxH40,
                   CustomButton(
                     title: "Confirm",

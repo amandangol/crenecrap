@@ -33,15 +33,24 @@ class CategoryDetailItem extends StatelessWidget {
               decoration: BoxDecoration(
                   color: Colors.grey.withOpacity(0.1),
                   borderRadius: const BorderRadius.all(Radius.circular(17))),
-              child: ClipRRect(
-                borderRadius: const BorderRadius.all(Radius.circular(17)),
-                child: Image.network(
-                  image!,
-                  height: 100.h,
-                  width: 150.w,
-                  fit: BoxFit.cover,
-                ),
-              ),
+              child: image!.isEmpty
+                  ? ClipRRect(
+                      borderRadius: const BorderRadius.all(Radius.circular(17)),
+                      child: Placeholder(
+                        fallbackHeight: 100.h,
+                        fallbackWidth: 100.w,
+                        strokeWidth: 1,
+                      ),
+                    )
+                  : ClipRRect(
+                      borderRadius: const BorderRadius.all(Radius.circular(17)),
+                      child: Image.network(
+                        image!,
+                        height: 100.h,
+                        width: 150.w,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
             ),
             sboxH10,
             Text(
