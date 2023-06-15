@@ -8,12 +8,11 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance![354683727_909848653422469_5348241782137998225_n](https://github.com/amandangol/luicate_ecommerce/assets/53999580/4fd1c5c5-8cf9-42f2-a7f8-19235f9ce82b)
  on mobile development, and a full API reference.
- ![1686837817422](https://github.com/amandangol/luicate_ecommerce/assets/53999580/006e9e5d-b458-4288-a8da-3edea9080f80)
 
-![1686837817398](https://github.com/amandangol/luicate_ecommerce/assets/53999580/67d294a9-ce43-449f-a2a1-f2c079c3e467)
-![1686837817371](https://github.com/amandangol/luicate_ecommerce/assets/53999580/0da8a8de-68a1-4baa-9230-45ae77c35306)
-![1686837817380](https://github.com/amandangol/luicate_ecommerce/assets/53999580/cb16cb17-f803-41a0-a10f-266335a73eaa)
-![1686837817355](https://github.com/amandangol/luicate_ecommerce/assets/53999580/78e2a497-a564-418a-b82f-7195d602509a)
-![1686837817380](https://github.com/amandangol/luicate_ecommerce/assets/53999580/1a8a74d9-540a-4930-bb05-7fc3a5e854ce)
-![354683727_909848653422469_5348241782137998225_n](https://github.com/amandangol/luicate_ecommerce/assets/53999580/4786c1b7-4c73-49fe-ad79-d3285a5a7421)
-![352352479_1244648249751868_6976870175848635776_n](https://github.com/amandangol/luicate_ecommerce/assets/53999580/bc68eaba-b3ea-44b6-a7b6-7c51000c657e)
+![1686837817422](https://github.com/amandangol/luicate_ecommerce/assets/53999580/03eff93b-8c89-465f-9a58-da9a0e9ae456)
+![1686837817398](https://github.com/amandangol/luicate_ecommerce/assets/53999580/5eeb40e4-cb10-4b3c-9d6a-0859047657ed)
+![354683727_909848653422469_5348241782137998225_n](https://github.com/amandangol/luicate_ecommerce/assets/53999580/b529a191-9355-4345-a308-e850565d03c4)
+![1686837817371](https://github.com/amandangol/luicate_ecommerce/assets/53999580/a39c515c-f439-4b28-b646-975d90f76c7c)
+![1686837817380](https://github.com/amandangol/luicate_ecommerce/assets/53999580/e350858a-2aed-454a-b52b-4d861507a175)
+![1686837817389](https://github.com/amandangol/luicate_ecommerce/assets/53999580/fb763aee-8237-44df-9ea1-c804aff3faa8)
+![1686837817363](https://github.com/amandangol/luicate_ecommerce/assets/53999580/7f54e218-ea44-4bf5-ba0a-c78afdd72f70)
