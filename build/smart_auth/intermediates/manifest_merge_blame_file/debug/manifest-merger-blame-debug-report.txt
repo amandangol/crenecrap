@@ -3,6 +3,6 @@
 3    package="fman.ge.smart_auth" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->C:\Users\acer\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\smart_auth-1.0.1\android\src\main\AndroidManifest.xml
+5-->C:\Users\acer\AppData\Local\Pub\Cache\hosted\pub.dev\smart_auth-1.0.8\android\src\main\AndroidManifest.xml
 6
 7</manifest>

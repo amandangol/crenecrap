@@ -371,7 +371,7 @@ class ProductDetails extends StatelessWidget {
                     ),
                     sboxH5,
                     Text(
-                      "A type of garment typically made of soft and breathable fabric, such as cotton or polyester. It is a popular casual clothing item worn by people of all ages and genders. T-shirts are characterized by their short sleeves, crew neck or V-neck collar, and a loose-fitting style.\n'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a justo neque. Proin non malesuada ligula. Sed nec ipsum aliquet, fringilla odio eu, faucibus ligula. Donec nec lectus ut tortor porta pharetra. Integer malesuada pulvinar libero sed convallis. Nunc consequat interdum eleifend. Aliquam sodales lectus ut dolor consectetur, sed rutrum lectus tincidunt. Integer finibus pharetra ultrices. Nulla facilisi. Nullam et egestas nibh. Mauris ut orci id leo semper malesuada. Fusce vulputate elementum libero ac finibus. Ut ac lectus eget odio bibendum malesuada. Vestibulum malesuada cursus est, id consectetur orci facilisis ac.",
+                      "A type of garment typically made of soft and breathable fabric, such as cotton or polyester. It is a popular casual clothing item worn by people of all ages and genders. T-shirts are characterized by their short sleeves, crew neck or V-neck collar, and a loose-fitting style.\n'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a justo neque. Proin non malesuada ligula. Sed nec ipsum aliquet, fringilla odio eu, faucibus ligulalisis ac.",
                       style: TextStyle(
                           fontWeight: FontWeight.normal,
                           fontFamily: "Poppins",

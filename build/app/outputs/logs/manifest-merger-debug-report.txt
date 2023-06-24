@@ -1,16 +1,18 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:3:4-35:19
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:3:4-35:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] C:\Users\acer\.gradle\caches\transforms-3\e6d1ac4a4ba57448b630eafd0cc24f66\transformed\jetified-play-services-fido-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] C:\Users\acer\.gradle\caches\transforms-3\e6d1ac4a4ba57448b630eafd0cc24f66\transformed\jetified-play-services-fido-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\0d7926c3ae772db20d5cfab149bf2ff4\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\0d7926c3ae772db20d5cfab149bf2ff4\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.core:core:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\d36df3e01e2e7d09d25e450e522af677\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\d36df3e01e2e7d09d25e450e522af677\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\acer\.gradle\caches\transforms-3\deb1bfc53c79e4982ec3226f0d83290b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -18,22 +20,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\acer\.gradle\caches\transforms-3\d36df3e01e2e7d09d25e450e522af677\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from [:smart_auth] C:\Users\acer\Desktop\crene_crap_ecommerce\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from [:smart_auth] C:\Users\acer\Desktop\luicate_ecommerce\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\a91f78306ead688a54dc09b9abb686a1\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
-MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\26cd35cd99e971526035585b3d81a81b\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\aaf83234c9195e6ac50710c7d0c874a1\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\acer\.gradle\caches\transforms-3\d1d540c9e7f92a128273cbe50e788b87\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] C:\Users\acer\.gradle\caches\transforms-3\e6d1ac4a4ba57448b630eafd0cc24f66\transformed\jetified-play-services-fido-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\0d7926c3ae772db20d5cfab149bf2ff4\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\180370dbb0bf83c56debc79fd2b7212a\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9ece9f37a9a3978527601a12ef64f61c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\922ec4e94256d8d379a62a69127cb88a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -49,45 +52,47 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\acer\.gradle\caches
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\acer\.gradle\caches\transforms-3\deb1bfc53c79e4982ec3226f0d83290b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\acer\.gradle\caches\transforms-3\3a92c459a54bc32e5f545eb172bd22aa\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\5cd1d76b3a643bfcca305118e3fd957c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:2:5-41
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-MERGED from [:smart_auth] C:\Users\acer\Desktop\crene_crap_ecommerce\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:smart_auth] C:\Users\acer\Desktop\crene_crap_ecommerce\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+MERGED from [:smart_auth] C:\Users\acer\Desktop\luicate_ecommerce\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:smart_auth] C:\Users\acer\Desktop\luicate_ecommerce\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\a91f78306ead688a54dc09b9abb686a1\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\a91f78306ead688a54dc09b9abb686a1\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\26cd35cd99e971526035585b3d81a81b\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\26cd35cd99e971526035585b3d81a81b\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\aaf83234c9195e6ac50710c7d0c874a1\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\aaf83234c9195e6ac50710c7d0c874a1\transformed\jetified-play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\acer\.gradle\caches\transforms-3\d1d540c9e7f92a128273cbe50e788b87\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\acer\.gradle\caches\transforms-3\d1d540c9e7f92a128273cbe50e788b87\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] C:\Users\acer\.gradle\caches\transforms-3\e6d1ac4a4ba57448b630eafd0cc24f66\transformed\jetified-play-services-fido-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] C:\Users\acer\.gradle\caches\transforms-3\e6d1ac4a4ba57448b630eafd0cc24f66\transformed\jetified-play-services-fido-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\0d7926c3ae772db20d5cfab149bf2ff4\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\0d7926c3ae772db20d5cfab149bf2ff4\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\180370dbb0bf83c56debc79fd2b7212a\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\180370dbb0bf83c56debc79fd2b7212a\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\9ece9f37a9a3978527601a12ef64f61c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -118,18 +123,18 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\acer\.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\acer\.gradle\caches\transforms-3\3a92c459a54bc32e5f545eb172bd22aa\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\5cd1d76b3a643bfcca305118e3fd957c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\5cd1d76b3a643bfcca305118e3fd957c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml:7:5-66
+ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from C:\Users\acer\Desktop\crene_crap_ecommerce\android\app\src\debug\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\acer\Desktop\luicate_ecommerce\android\app\src\debug\AndroidManifest.xml:7:22-64
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
@@ -143,25 +148,25 @@ ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\tr
 	android:name
 		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\acer\.gradle\caches\transforms-3\9868a9d2a1e606579a48f76c6e40d240\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
 	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.1.0] C:\Users\acer\.gradle\caches\transforms-3\aba04e6409b9347b320155d07ae63b4f\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\acer\.gradle\caches\transforms-3\332a2dd67d2b52cccf59ebfd14742bab\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 	android:exported
@@ -171,8 +176,8 @@ ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\acer\.gradle\caches\transforms-3\d70bf63722f234e393c9fb40688d5e9c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\acer\.gradle\caches\transforms-3\b8b51fccd790cb00bdc46616b12de868\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\acer\.gradle\caches\transforms-3\a1c86aaf4c64bb5db376e66470aa2c2a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58

@@ -200,9 +200,9 @@ class SignUpScreen extends StatelessWidget {
                           ),
                         ),
                         sboxH15,
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Text(
                               "Or Continue With",
                               style: TextStyle(fontFamily: "Poppins"),

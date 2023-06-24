@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\acer\\Desktop\\crene_crap_ecommerce\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
+            "outputFile": "C:\\Users\\acer\\Desktop\\luicate_ecommerce\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\d70bf63722f234e393c9fb40688d5e9c\\transformed\\jetified-play-services-base-18.0.1\\res\\values-ka\\values.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\b8b51fccd790cb00bdc46616b12de868\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-ka\\values.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\a1c86aaf4c64bb5db376e66470aa2c2a\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ka\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

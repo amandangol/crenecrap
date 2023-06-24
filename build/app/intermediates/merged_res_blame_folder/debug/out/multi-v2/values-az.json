@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\acer\\Desktop\\crene_crap_ecommerce\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "C:\\Users\\acer\\Desktop\\luicate_ecommerce\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\b8b51fccd790cb00bdc46616b12de868\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-az\\values.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\a1c86aaf4c64bb5db376e66470aa2c2a\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-az\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

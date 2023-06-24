@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\acer\\Desktop\\crene_crap_ecommerce\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\acer\\Desktop\\luicate_ecommerce\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\acer\\Desktop\\luicate_ecommerce\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "120,125",
+                        "startColumns": "4,4",
+                        "startOffsets": "8584,8892",
+                        "endLines": "124,127",
+                        "endColumns": "12,12",
+                        "endOffsets": "8887,9056"
+                    }
+                },
                 {
                     "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\d70bf63722f234e393c9fb40688d5e9c\\transformed\\jetified-play-services-base-18.0.1\\res\\values\\values.xml",
                     "from": {
@@ -61,26 +80,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\acer\\Desktop\\crene_crap_ecommerce\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "120,125",
-                        "startColumns": "4,4",
-                        "startOffsets": "8584,8892",
-                        "endLines": "124,127",
-                        "endColumns": "12,12",
-                        "endOffsets": "8887,9056"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\b8b51fccd790cb00bdc46616b12de868\\transformed\\jetified-play-services-basement-18.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\a1c86aaf4c64bb5db376e66470aa2c2a\\transformed\\jetified-play-services-basement-18.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "0,0",
